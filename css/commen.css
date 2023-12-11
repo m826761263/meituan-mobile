@@ -1,43 +1,62 @@
-body,h1,h2,h3,h4,h5,h6,p,ul,form,dl,dd,dt{
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+form,
+dl,
+dd,
+dt {
     padding: 0;
     margin: 0;
 }
-ul,li{
+
+ul,
+li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
     color: #000;
 }
-a:visited{
+
+a:visited {
     color: #000;
 }
-img{
+
+img {
     border: none;
     display: block;
 }
+
 /* 苗桐菲的可选内容 */
-body{
+body {
     min-width: 320px;
     overflow-x: hidden;
-    margin: 0 auto;
-}
-:root{
-    font-size: 5.6vw;
+    background: linear-gradient(rgb(245, 204, 1), rgb(255, 255, 255));
+    height: 1000px;
 }
 
-#top{
+/* 搜索框 */
+#top {
     display: flex;
-    background-color: rgb(245, 204, 1);
     padding: 10px 12px;
     padding-left: 15px;
-    height: 30px;
+    background-color: rgb(245, 204, 1);
+    height: 35px;
 }
-#menu{
-    margin-right:15px;
+
+#menu {
+    margin-right: 15px;
 }
-#menu span{
-    line-height: 30px;
+
+#menu span {
+    line-height: 35px;
     height: 36px;
     display: block;
     text-align: left;
@@ -45,85 +64,179 @@ body{
     font-size: 13px;
 }
 
-.search{
-    border-radius: 10px;
+.search {
+    border-radius: 15px;
     background-color: #fff;
     flex-grow: 2;
     display: flex;
+    padding: 10px 0;
 }
-.icon-sousuo{
-    margin: 8px 8px;
-    font-size: 18px;
+
+.icon-sousuo {
+    margin: 0 8px;
+    font-size: 15px;
     display: flex;
 }
-#search{
+
+#search {
     border: none;
     outline: none;
     flex-grow: 2;
     margin-right: 15px;
 }
+
+.n {
+    line-height: 5px;
+    margin: -7px 3px 0 60px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgb(255, 232, 116);
+    display: flex;
+    border: 0;
+    outline: none;
+}
+
 .btn {
     color: #000;
-    font-size: 16px;
+    font-size: 17px;
     margin: 6px 7px;
 }
-.icon-saomiao{
+
+.icon-saomiao {
     font-size: 30px;
 }
 
+/* 内容 */
+.waimai {
+    padding: 10px 12px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.waimai>ul {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+}
+
+.waimai li {
+    display: flex;
+    margin: 1px 10px;
+    font-size: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.waimai p {
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    text-align: center;
+}
+
+.box {
+    padding-left: 5px;
+    font-size: 10px;
+    display: flex;
+}
+
+.w {
+    background-color: #ffcf57;
+    padding: 5px;
+    margin-top: -7px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.box h3 {
+    font-size: 13px;
+}
+
+.swiper-slide {
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+
+}
+
+.jlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.jlist li {
+    width: 20%;
+    font-size: 30px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.swiper-slide p {
+    font-size: 11px;
+    line-height: 17px;
+    color: #333;
+    text-align: center;
+
+}
+
+#icon-Icon_set-footprint-- {
+    color: #f73371;
+}
+
+/* 下导航 */
 .icon {
     width: 1em;
     height: 1em;
     vertical-align: -0.15em;
     fill: currentColor;
     overflow: hidden;
-  }
-  ul{
-      list-style: none;
-  }
-  ul,p,body{
-      padding: 0;
-      margin: 0;
-  }
-  .bnav{
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      z-index: 9;
-      background-color: rgb(255, 253, 253);
-  }
-  body{
-      margin-bottom: 50px;
-  }
-  .bnav>ul{
-      display: flex;
-  }
-  .bnav li{
-      width: 25%;
-      display: flex;
-      justify-content:center;
+}
 
-  }
-  .bnav div{
-      position: relative;
-  }
-  .bnav svg{
-      font-size: 28px;
-      margin: 1px 0;
-  }
-  .bnav p{
-      font-size: 15px;
-      line-height: 24px;
-      color: #333;
-      text-align: center;
-  }
-  .dot{
-      width: 10px;
-      height: 10px;
-      border-radius: 5px;
-      position: absolute;
-      right: 0;
-      top: 3px;
-      background-color: #f00;
-  }
+ul,
+p,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.bnav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    margin-bottom: 50px;
+}
+
+.bnav>ul {
+    display: flex;
+}
+
+.bnav li {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.bnav div {
+    position: relative;
+}
+
+.bnav svg {
+    font-size: 40px;
+    margin: 1px 0;
+}
+
+.bnav p {
+    font-size: 15px;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+}
