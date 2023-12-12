@@ -1,0 +1,48 @@
+#top{
+    display: flex;
+    background:linear-gradient(rgb(233, 232, 230),rgb(255, 255, 255));
+    margin: 0px;
+    padding: 10px 12px;
+    padding-left: 15px;
+    height: 35px;
+}
+#menu{
+    margin-right:15px;
+}
+#menu span{
+    line-height: 35px;
+    height: 30px;
+    display: block;
+    text-align: left;
+    /*只对block元素起作用,span属于inline元素*/
+    font-size: 20px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.search{
+    border-radius: 15px;
+    background-color: #fff;
+    flex-grow: 2;
+    display: flex;
+    padding: 10px 0;
+}
+#search{
+    border: none;
+    outline: none;
+    flex-grow: 2;
+    margin-right: 20px;
+}
+.icon-chahao{
+    margin: 0 8px;
+    font-size: 20px;
+    display: flex;
+}
+.weizhi{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
