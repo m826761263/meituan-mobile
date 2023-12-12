@@ -121,7 +121,6 @@ body {
 }
 
 .waimai li {
-    display: flex;
     margin: 1px 10px;
     font-size: 30px;
     flex-direction: column;
@@ -157,7 +156,6 @@ body {
     padding-bottom: 20px;
     border-radius: 20px;
     background-color: #fff;
-
 }
 
 .jlist {
@@ -174,17 +172,23 @@ body {
 }
 
 .swiper-slide p {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 17px;
     color: #333;
     text-align: center;
-
 }
 
 #icon-Icon_set-footprint-- {
     color: #f73371;
 }
-
+.swiper-pagination{
+    font-size: 10px;
+}
+.sh img{
+    margin: 5px auto;
+    border-radius: 10px;
+    width: 95%;
+}
 /* 下导航 */
 .icon {
     width: 1em;

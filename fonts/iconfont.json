@@ -6,6 +6,55 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "6796700",
+      "name": "2_商店",
+      "font_class": "_shangdian",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "10940977",
+      "name": "正在直播",
+      "font_class": "zhengzaizhibo",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "14087131",
+      "name": "直播中",
+      "font_class": "zhibozhong-0",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "38175151",
+      "name": "美团",
+      "font_class": "meituan1",
+      "unicode": "10184",
+      "unicode_decimal": 65924
+    },
+    {
+      "icon_id": "1248",
+      "name": "删除",
+      "font_class": "shanchu",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "2674472",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "11372728",
+      "name": "眼睛",
+      "font_class": "yanjing",
+      "unicode": "e8bf",
+      "unicode_decimal": 59583
+    },
+    {
       "icon_id": "10495800",
       "name": "icon_order",
       "font_class": "icon_order",
