@@ -99,6 +99,7 @@ body {
     flex-wrap: wrap;
     font-weight: bold;
 }
+
 /* 内容 */
 .icon {
     width: 1em;
@@ -107,27 +108,125 @@ body {
     fill: currentColor;
     overflow: hidden;
 }
-.box2{
+
+.box1 {
     background-color: #fff;
-    border-radius: 15px;
+    border-radius: 15px 15px 0 0;
     float: left;
     padding: 15px;
-    margin: 10px;
-    width: 86%;
+    margin-top: 10px;
+    width: 93%;
 }
-.box2 li:nth-child(1) svg,.box2 li:nth-child(3) svg{
+
+.box2 li:nth-child(1) svg,.box2 li:nth-child(3) svg {
     float: right;
     color: rgb(152, 152, 152);
     font-size: 20px;
     margin-top: -20px;
 }
-.box2 p.hui{
-    background-color: rgb(245,245,245);
+
+.box1 p.hui {
+    background-color: rgb(245, 245, 245);
     border-radius: 15px;
     text-align: center;
     font-size: 13px;
     padding: 7px;
-    width:auto; 
-    display:inline-block !important; 
-    margin:10px 5px ;
+    width: auto;
+    display: inline-block !important;
+    margin: 10px 5px;
+}
+
+/* swiper */
+
+.swiper-slide{
+    border-radius: 20px;
+}
+.kuang {
+    border-radius: 20px;
+    padding: 12px;
+}
+.swiper-slide:nth-child(1n) {
+    background-color: rgb(252, 227, 227);
+}
+.swiper-slide:nth-child(2n) {
+    background-color: rgb(248, 196, 228);
+
+}
+.swiper-slide:nth-child(3n) {
+    background-color: rgb(253, 239, 180);
+
+}
+.swiper-slide:nth-child(4n) {
+    background-color: rgb(230, 197, 248);
+}
+.swiper-slide:nth-child(5n) {
+    background-color: rgb(248, 196, 228);
+}
+
+.kuang span {
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 10px;
+    height: 20%;
+}
+
+.kuang p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.kuang li {
+    margin: 10px 0px;
+    display: flex;
+    font-weight: bold;
+}
+
+.pi1 {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: -15px;
+}
+.shou{
+    color: #f75600;
+}
+.wei{
+    color: #8a8a8a;
+}
+.swiper-slide:nth-child(1n) h2{
+    color: #fe0000;
+}
+.swiper-slide:nth-child(2n) h2{
+    color: #fa38d0;
+}
+.swiper-slide:nth-child(3n) h2{
+    color: #fbb105;
+}
+.swiper-slide:nth-child(4n) h2{
+    color: #af23fa;
+}
+.swiper-slide:nth-child(5n) h2{
+    color: #fa38d0;
+}
+.swiper-slide:nth-child(5n) h2{
+    color: #fa38d0;
+}
+.tou{
+    display: flex;
+}
+.tou svg{
+    height: 25px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+#wei1 {
+    float: right;
+    font-size: 18px;
+    height: 40px;
+    margin: 0 8px 0 auto;
+    color: #f75600
 }

@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "24111546",
+      "name": "美食",
+      "font_class": "meishi1",
+      "unicode": "fac3",
+      "unicode_decimal": 64195
+    },
+    {
+      "icon_id": "7519551",
+      "name": "指甲油-01",
+      "font_class": "zhijiayou-",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "10905594",
+      "name": "火爆",
+      "font_class": "huobao",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "637803",
+      "name": "向上箭头",
+      "font_class": "xiangshangjiantou",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "7285967",
+      "name": "新品推荐",
+      "font_class": "xinpintuijian",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
       "icon_id": "6796700",
       "name": "2_商店",
       "font_class": "_shangdian",
