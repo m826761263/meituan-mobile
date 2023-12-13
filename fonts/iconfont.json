@@ -6,6 +6,20 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "9371331",
+      "name": "钱包",
+      "font_class": "qianbao",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "1247403",
+      "name": "向右箭头",
+      "font_class": "xiangyoujiantou",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
       "icon_id": "24684551",
       "name": "清除、全部已读",
       "font_class": "a-qingchuquanbuyidu",

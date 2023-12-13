@@ -1,3 +1,230 @@
+body {
+    background-color: rgb(246, 246, 246);
+}
+
+/* 顶部 */
+.top1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+}
+
+.top1>ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.top li {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin: 10px;
+}
+
+.top2 {
+    margin-top: 40px;
+    display: flex;
+}
+
+.touxiang {
+    width: 53px;
+    border-radius: 60px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.txt {
+    margin-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.txt h3 {
+    margin-left: 8px;
+    font-size: 17px;
+    line-height: 33px;
+    width: 100%;
+}
+
+.txt a {
+    color: #030;
+}
+
+.txt span {
+    font-size: 10px;
+    line-height: 22px;
+}
+
+.neirong {
+    margin-left: 15px;
+    border: 0px solid #333;
+    background-color: rgb(225, 225, 225);
+    color: #444;
+    border-radius: 15px;
+    padding: 0 5px 0 5px;
+    text-align: center;
+}
+
+.top3 {
+    width: 25%;
+    display: flex;
+    font-size: 10px;
+    border: 1px solid rgb(255, 221, 1);
+    border-radius: 10px;
+
+}
+
+.txt1 {
+    margin-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.txt1 h4 {
+    font-size: 12px;
+    line-height: 35px;
+    width: 100%;
+    margin-bottom: -15px;
+}
+
+.top3 img {
+    width: 17%;
+    height: 50%;
+    border-radius: 5px;
+    font-size: 15px;
+    padding-top: 12px;
+    text-align: right;
+}
+
+/* 内容1 */
+.top4 {
+    padding: 10px 0 0 0;
+    margin: 10px 5px 10px 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.up>ul {
+    display: flex;
+}
+
+.up li {
+    width: 50%;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.box-with-underline {
+    position: relative;
+    width: 368px;
+    height: 1px;
+    background-color: rgb(215, 215, 215);
+    margin-top: -10px;   
+}
+.up li:nth-child(1) {
+    border-right: 1px solid rgb(215, 215, 215);
+}
+
+.up svg {
+    color: rgb(176, 176, 176);
+}
+.down{
+    padding-top: 10px;
+}
+.down>ul{
+    display: flex;
+}
+.down li {
+    width: 25%;
+    text-align: center;
+}
+.down svg{
+    font-size: 25px;
+}
+/* 内容二 */
+.top5{
+    padding: 10px 0 0 0;
+    margin: 10px 5px 10px 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+
+}
+.order{
+    margin: 0 5px 0 5px;
+    display: flex;
+    justify-content: space-between
+}
+.order>h3{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.order>div{
+    display: flex;
+    margin-top: 3px;
+}
+.order svg{
+    color: rgb(176, 176, 176); 
+    margin-top: 2px;
+}
+.order1 ul{
+    display: flex;
+}
+.order1 li{
+    width: 20%;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+.order1 svg{
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+/* 内容三 */
+.m{
+    padding: 20px 0 20px 0;
+    margin: 10px 5px 10px 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.m>ul{
+    display: flex;
+}
+.m li{
+    width: 20%;
+    text-align: center;
+}
+.T{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.m h3{
+    font-size: 19px;
+
+}
+.m h4{
+    font-weight: bold;
+    font-size: 10.4px;
+}
+.m p{
+    color: rgb(176, 176, 176); 
+    font-size: 8px;
+}
+#T{
+    color: rgb(255, 72, 0);
+}
+.m svg{
+    font-size: 24.7px;
+}
+.m li:nth-last-child(2){
+    border-right: 1px solid rgb(176, 176, 176);
+}
 /* 下导航 */
 .icon {
     width: 1em;
@@ -10,8 +237,8 @@
 ul {
     list-style: none;
 }
-ul
-ul,
+
+ul ul,
 p,
 li body {
     padding: 0;
