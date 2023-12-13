@@ -194,7 +194,7 @@ body {
 }
 
 .bnav svg {
-    font-size: 40px;
+    font-size: 30px;
     margin: 1px 0;
 }
 
@@ -205,11 +205,29 @@ body {
     text-align: center;
 }
 .xia>li:nth-child(1) svg{
-    margin: 12px 0 5px 3px;
+    margin-left: 2.6px;
     font-size: 25px;
     font-weight: bold;
 }
-.xia>li:nth-child(1){
-    background-color: rgb(245, 204, 1);
-    border-radius: 1000px;
+.dot{
+    width: 51px;
+    height: 51px;
+    border-radius: 50px;
+    position: absolute;
+    left: 13.2px;
+    top: 3px;
+    background-color: rgb(255, 213, 0);
+    z-index: -1;
+}
+.dot2 {
+    width: 14px;
+    height: 13px;
+    border-radius: 50px;
+    position: absolute;
+    right: 99px;
+    top: 2px;
+    background-color: rgb(255, 72, 0);
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
 }
