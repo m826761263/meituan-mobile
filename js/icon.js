@@ -1,7 +1,7 @@
 var jarr=[{
     link:"#",
-    icon:"#icon-shouye",
-    txt:"首页"
+    icon:"#icon-xiangxiajiantou",
+    txt:"推荐"
 },{
     link:"youxuan.html",
     icon:"#icon-youxuan",
