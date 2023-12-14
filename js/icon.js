@@ -3,7 +3,7 @@ var jarr=[{
     icon:"#icon-xiangxiajiantou",
     txt:"推荐"
 },{
-    link:"youxuan.html",
+    link:"#",
     icon:"#icon-youxuan",
     txt:"优选"
 },{
