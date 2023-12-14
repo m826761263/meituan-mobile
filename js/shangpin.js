@@ -1,10 +1,4 @@
-var url = "http://rap2api.taobao.org/app/mock/316283/xiaoxi";
-
-var jarr=[{
-    project:"商品炸鸡",
-    icon:"#icon-xiangxiajiantou",
-    txt:"推荐"
-}];
+var url = "http://rap2api.taobao.org/app/mock/316283/project";
 fetch(url)
   .then((data) => {
     return data.json();
@@ -17,27 +11,27 @@ fetch(url)
     console.log(e);
   });
 function parse(data) {
-  var jlist = document.querySelector(".jlist1");
+  var jlist = document.querySelector(".jlist2");
   for (let v of data) {
     let li = document.createElement("li");
     li.innerHTML = `
         <div class="kuang">
             <img src="./images/${v.project}.jpg">
             <div class="pnei">
-                <p class="sp">外卖</p>
-                <p class="time">45分钟</p>
+                <p class="sp">${v.project1}</p>
+                <p class="time">${v.project2}</p>
             </div>
         </div>
         <div class="nei1">
-            <h3>熊家无二·韩式炸鸡（理工大学店）</h3>
+            <h3>${v.title}</h3>
             <div id="nei1">
-                <p>4.8分</p>
-                <p>人均￥28</p>
+                <p>${v.score}</p>
+                <p>${v.avg}</p>
             </div>
             <div id="nei2">
-                <p>22减14</p>
-                <p>58减23</p>
-                <p>90减39</p>
+                <p>${v.mj1}</p>
+                <p>${v.mj2}</p>
+                <p>${v.mj3}</p>
             </div>
         </div>`;
     jlist.appendChild(li);
