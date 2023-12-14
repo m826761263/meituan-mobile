@@ -171,7 +171,6 @@ a {
     position: absolute;
     left: 0;
     top: 100px;
-    border: 1px solid #dbdee1;
 }
 
 #fixed li {
@@ -195,7 +194,6 @@ a {
 }
 
 #main {
-    margin-top: 15px;
     margin-left: 102px;
     font-size: 15px;
     background-color: #fff;

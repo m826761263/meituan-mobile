@@ -19,14 +19,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: end;
-    margin: 10px;
+    margin-right: 10px;
+    margin-top: 18px;
+    padding-bottom: 5px;
 }
-
-.top li:nth-child(2) p {
-    height: 17px;
-    margin-left: -15px;
+.top li:nth-child(1){
+    margin-left: 10px;
 }
-
 .top li:nth-child(3) {
     margin-left: -2px;
 }
